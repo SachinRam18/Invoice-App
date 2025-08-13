@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image_picker: ^1.1.2
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -52,9 +54,11 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   fonts:
-    - family: LibreCaslonText
+    - family: s1
       fonts:
-        - asset: fonts/BarlowCondensed-Regular.ttf
+        - asset: fonts/Inter_28pt-Medium.ttf
+  assets:
+    - assets/download.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
